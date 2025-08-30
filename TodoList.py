@@ -1,11 +1,7 @@
 Todo_list = []
 Completed_list = []
 Deleted_list =[]
-print("Enter your choice from Below : ")
-print("Enter '1' to Add an Item to the list")
-print("Enter '2' to Display the list")
-print("Enter '3' to Mark an Item as completed in the list")
-print("Enter '4' Close the App")
+
 
 i=1
 while(i<100):
@@ -55,4 +51,5 @@ while(i<100):
     print("=======================")
     i=i+1
     if num==4:
+
         break           
